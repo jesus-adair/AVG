@@ -1,0 +1,50 @@
+/* Variables globales de color y texto*/
+:root {
+  --color-header: #0b0b0b;
+  --font-family: "Poppins";
+  --color-font: #ffffff;
+  --font-size-buttons: 15px;
+}
+/* Variables globales de color y texto*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+
+header {
+  background-color: var(--color-primario);
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+.img-nav {
+  object-fit: contain;
+  width: 120px;
+  margin-left: 30px;
+}
+.text-nav-1 {
+  margin-right: 20px;
+}
+
+.text-nav-2 {
+  font-size: 16px;
+  font-family: var(--font-family);
+  color: var(--color-font);
+}
+/*header*/
+
+main {
+  margin-top: 150px;
+  display: grid;
+}

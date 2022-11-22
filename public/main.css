@@ -19,6 +19,8 @@ header {
   background-color: var(--color-header);
 }
 .header-navigation {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -46,6 +48,24 @@ header nav ul li a {
 /*header*/
 
 main {
+  padding: 0;
   margin-top: 150px;
   display: grid;
+}
+
+@media screen and (max-width: 758px) {
+  .header-navigation {
+    display: grid;
+    justify-content: center;
+  }
+  .img-nav {
+    margin: auto;
+    margin-top: 30px;
+  }
+  header nav {
+    overflow-x: scroll;
+  }
+  .text-nav-1 {
+    min-width: fit-content;
+  }
 }

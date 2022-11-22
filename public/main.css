@@ -8,6 +8,7 @@
 /* Variables globales de color y texto*/
 
 body {
+  background-color: blue;
   margin: 0;
   padding: 0;
   font-family: var(--font-family);
@@ -48,9 +49,15 @@ header nav ul li a {
 /*header*/
 
 main {
-  padding: 0;
-  margin-top: 150px;
   display: grid;
+}
+
+.main-iframe {
+  max-width: 1200px;
+  margin: auto;
+  background-color: aliceblue;
+  padding: 100px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 758px) {

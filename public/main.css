@@ -65,7 +65,7 @@ header nav ul li a {
     "card-2 card-3"
     "card-2 card-3"
     "card-2 card-3"
-    "card-4 card-4";
+    "card-4 card-5";
 
   /* ----------------------4 cards en 1 columna-------------------------- */
   /* grid-template-areas:
@@ -102,6 +102,9 @@ header nav ul li a {
 }
 #card-4 {
   grid-area: card-4;
+}
+#card-5 {
+  grid-area: card-5;
 }
 
 #img-nav {

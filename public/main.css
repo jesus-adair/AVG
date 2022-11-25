@@ -107,6 +107,7 @@ header nav ul li a {
 #img-nav {
   margin-top: 15px;
 }
+/*
 .button {
   text-align: center;
 }
@@ -127,6 +128,7 @@ header nav ul li a {
   scale: 1.1;
   transition: 0.5s all ease;
 }
+*/
 
 .titulo-card {
   font-family: var(--font-family);

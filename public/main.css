@@ -34,7 +34,7 @@
 /* -----------------END SCROLL BAR----------------- */
 
 body {
-  background-image: url(./imagenes/gradient-5.png);
+  background-image: url(./imagenes/gradient-6.png);
   /* background-color: #ffffff; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +93,7 @@ header nav ul li a {
 }
 
 .text-nav-2:hover {
-  color: #ff9889;
+  color: #ff5900;
   cursor: pointer;
 }
 
@@ -227,7 +227,7 @@ header nav ul li a {
 .subtitulo-card {
   font-family: var(--font-family);
   font-size: 0.875rem;
-  color: #0c8149;
+  color: #5cdc3f;
   margin: 0;
   padding: 0;
 }

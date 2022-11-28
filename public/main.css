@@ -34,8 +34,8 @@
 /* -----------------END SCROLL BAR----------------- */
 
 body {
-  background-image: url(./imagenes/gradient-3.png);
-  background-color: #ffffff;
+  background-image: url(./imagenes/gradient-5.png);
+  /* background-color: #ffffff; */
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -48,9 +48,8 @@ body {
 
 header {
   background-color: var(--color-header);
-  background-image: url("/public/imagenes/gradient-3.png");
   background-position: 100px 200px;
-  box-shadow: 2px 5px 5px 1px rgba(183, 183, 183, 0.1);
+  box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   width: 100%;
@@ -100,11 +99,11 @@ header nav ul li a {
 
 /* Selecciona cualquier <a> que esté siendo activado */
 #Producciones {
-  color: #ff9889;
+  color: #ff5900;
 }
 
 #Pulso {
-  color: #ff9889;
+  color: #ff5900;
 }
 
 /*header*/

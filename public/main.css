@@ -50,7 +50,7 @@ header {
   background-color: var(--color-header);
   background-position: 100px 200px;
   /* box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.1); */
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
 }

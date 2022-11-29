@@ -2,7 +2,7 @@
 :root {
   --color-header: #3461ff;
   --font-family: "Poppins";
-  --color-font: #dfdfdf;
+  --color-font: #c1d8ff;
   --font-size-buttons: 15px;
   --color-card: #ffffff;
 }
@@ -35,7 +35,7 @@
 
 body {
   /* background-image: url(./imagenes/gradient-6.png); */
-  background-color: #d6e5ff;
+  background-color: #eef2ff;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -228,7 +228,7 @@ header nav ul li a {
 .subtitulo-card {
   font-family: var(--font-family);
   font-size: 0.875rem;
-  color: #40bf60;
+  color: #3461ff;
   margin: 0;
   padding: 0;
 }

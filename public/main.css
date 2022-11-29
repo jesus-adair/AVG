@@ -12,7 +12,7 @@
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #fafafa;
+  background-color: #d1d1d1;
 }
 
 /* Track */
@@ -35,7 +35,7 @@
 
 body {
   /* background-image: url(./imagenes/gradient-6.png); */
-  background-color: #eef2ff;
+  background-color: #fafafa;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;

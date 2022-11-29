@@ -171,17 +171,17 @@ header nav ul li a {
 #card-1 {
   grid-area: card-1;
   overflow-y: hidden;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 #card-2 {
   grid-area: card-2;
   overflow-y: hidden;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 #card-3 {
   grid-area: card-3;
   overflow-y: hidden;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 #card-4 {
   grid-area: card-4;

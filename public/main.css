@@ -1,8 +1,8 @@
 /* Variables globales de color y texto*/
 :root {
-  --color-header: #3461ff;
+  --color-header: #142b52;
   --font-family: "Poppins";
-  --color-font: #c1d8ff;
+  --color-font: #cbcbcb;
   --font-size-buttons: 15px;
   --color-card: #ffffff;
 }
@@ -221,7 +221,7 @@ header nav ul li a {
 .titulo-card {
   font-family: var(--font-family);
   font-size: 1.5rem;
-  color: #142b52;
+  color: #061e48;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -235,7 +235,7 @@ header nav ul li a {
 .parrafo-card {
   font-family: var(--font-family);
   font-size: 0.75rem;
-  color: #9da7b8;
+  color: #061e48;
   margin: 0;
   margin-bottom: 10px;
 }

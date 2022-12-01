@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./favicon/safari-pinned-tab.svg"
+      color="#727272"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#000000" />
+    <title>Parrot</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-navigation">
+        <a id="img-nav" href="./index.html">
+          <img
+            class="img-nav"
+            src="https://ricardoyanez.com/wp-content/uploads/2022/10/RevelioDelta_w.svg"
+            alt="logotipo Metrics"
+          />
+        </a>
+        <nav class="nav-links">
+          <ul>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./index.html">Producciones</a>
+            </li>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./pulso.html">Pulso</a>
+            </li>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./actividad.html" id="Actividad"
+                >Actividad</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End navigation bar -->
+    <!-- Start dashboard -->
+
+    <main>
+      <section class="grid">
+        <div class="card" id="card-1">
+          <h3 class="titulo-card">Eventos</h3>
+          <p class="parrafo-card">
+            Disfruta de series originales, estrenos de películas y tu ligas de
+            fútbol favoritas.
+          </p>
+          <iframe
+            title=""
+            aria-label="Interactive line chart"
+            id="datawrapper-chart-0DIVv"
+            src="https://datawrapper.dwcdn.net/0DIVv/1/"
+            scrolling="no"
+            frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none"
+            height="366"
+            data-external="1"
+          ></iframe>
+          <script type="text/javascript">
+            !(function () {
+              "use strict";
+              window.addEventListener("message", function (e) {
+                if (void 0 !== e.data["datawrapper-height"]) {
+                  var t = document.querySelectorAll("iframe");
+                  for (var a in e.data["datawrapper-height"])
+                    for (var r = 0; r < t.length; r++) {
+                      if (t[r].contentWindow === e.source)
+                        t[r].style.height =
+                          e.data["datawrapper-height"][a] + "px";
+                    }
+                }
+              });
+            })();
+          </script>
+        </div>
+      </section>
+    </main>
+    <!-- End dash board -->
+  </body>
+</html>

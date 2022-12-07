@@ -15,3 +15,12 @@
     "card-4 card-5"
     "card-4 card-5";
 }
+
+.button {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0;
+}
+.button-parrot-pulse {
+  border-radius: none;
+}

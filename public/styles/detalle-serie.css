@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 60px;
+  padding: 100px 50px 0px 50px;
   color: white;
   position: relative;
 }
@@ -52,21 +52,34 @@ body {
 .featured__button {
   width: 80%;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.3);
   border: 0;
-  border-radius: 12px;
-  color: white;
+  border-radius: 3px;
   text-transform: uppercase;
   padding: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(255, 255, 255);
+  font-size: var(--font-size-buttons);
+  font-family: var(--font-family);
   font-weight: bold;
+  border-radius: 10px;
 }
 
 .featured__button svg {
   max-width: 24px;
   margin-right: 8px;
+}
+
+.featured__button:hover {
+  background-color: #142b52;
+  color: #ffffff;
+  cursor: pointer;
+  scale: 1.1;
+  transition: 0.2s all ease;
+}
+.featured__button:hover a {
+  color: #ffffff;
 }
 
 .featured__title {

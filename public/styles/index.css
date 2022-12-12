@@ -118,6 +118,10 @@ header nav ul li a {
   color: #ffffff;
 }
 
+#Alcance {
+  color: #ffffff;
+}
+
 /*header*/
 .card {
   background-color: var(--color-card);

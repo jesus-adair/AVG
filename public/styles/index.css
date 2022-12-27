@@ -1,10 +1,10 @@
 /* Variables globales de color y texto*/
 :root {
-  --color-header: #102e4a;
+  --color-header:#fff;
   --font-family: "Poppins";
   --color-font: #cbcbcb;
   --font-size-buttons: 15px;
-  --color-card: #ffffff;
+  --color-card: #27262C;
 }
 /* Variables globales de color y texto*/
 
@@ -35,7 +35,7 @@
 
 body {
   /* background-image: url(./imagenes/gradient-6.png); */
-  background-color: #fafafa;
+  background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -47,8 +47,9 @@ body {
 /*header*/
 
 header {
-  background-color: var(--color-header);
-  background-position: 100px 200px;
+ 
+  background: linear-gradient(180deg, #000000 40%, rgba(0, 0, 0, 0) 100%);
+  /* background-position: 100px 200px; */
   /* box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.1); */
   /* position: fixed; */
   top: 0;
@@ -74,7 +75,7 @@ header nav ul li a {
 } */
 .img-nav {
   object-fit: contain;
-  width: 120px;
+  width: 30px;
   margin-left: 50px;
 }
 
@@ -99,27 +100,27 @@ header nav ul li a {
 
 /* Selecciona cualquier <a> que esté siendo activado */
 #Producciones {
-  color: #ffffff;
+  color: #9F09E5;
 }
 
 #Pulso {
-  color: #ffffff;
+  color: #9F09E5;
 }
 
 #Actividad {
-  color: #ffffff;
+  color: #9F09E5;
 }
 
 #Comparación {
-  color: #ffffff;
+  color: #9F09E5;
 }
 
 #Demanda {
-  color: #ffffff;
+  color: #9F09E5;
 }
 
 #Alcance {
-  color: #ffffff;
+  color: #9F09E5;
 }
 
 /*header*/
@@ -203,8 +204,13 @@ header nav ul li a {
 
 .titulo-card {
   font-family: var(--font-family);
-  font-size: 1.5rem;
-  color: #061e48;
+  font-size: 2.5rem;
+  /* gradient-text */
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent; 
   margin: 0;
   margin-bottom: 10px;
 }
@@ -218,7 +224,7 @@ header nav ul li a {
 .parrafo-card {
   font-family: var(--font-family);
   font-size: 0.75rem;
-  color: #061e48;
+  color: #ffffff;
   margin: 0;
   margin-bottom: 10px;
 }

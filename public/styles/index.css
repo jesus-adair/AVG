@@ -80,7 +80,9 @@ header nav ul li a {
 }
 
 .nav-links {
-  margin-right: 50px;
+  margin-right: 0;
+  margin-top: 5px;
+  margin-left: 40px;
 }
 .text-nav-1 {
   margin-right: 20px;
@@ -96,6 +98,48 @@ header nav ul li a {
 .text-nav-2:hover {
   color: #ffffff;
   cursor: pointer;
+}
+
+.button-login{
+width: 110px;
+height: 50px;
+border-radius: 10px;
+background-color: transparent;
+color: var(--color-font);
+font-family: var(--font-family);
+font-weight: 600;
+margin-right: 0;
+margin-top: 5px;
+font-size: 1rem;
+
+}
+.button-login:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+.button-singup{
+  width: 110px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: #FFFFFF solid 1.5px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  margin-right: 50px;
+  margin-top: 5px;
+  font-size: 1rem;
+
+}
+.button-singup:hover {
+  background-color: #9F09E5;
+  color: #ffffff;
+  cursor: pointer;
+  scale: 1.1;
+  transition: 0.5s all ease;
+  border: none;
 }
 
 /* Selecciona cualquier <a> que esté siendo activado */

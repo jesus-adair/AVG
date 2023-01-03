@@ -1,6 +1,6 @@
 body {
   /* background-image: url(./imagenes/gradient-6.png); */
-  background-color: #000;
+  background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -119,14 +119,14 @@ body {
   padding-bottom: 10px;
 }
 
+
 .featured__menu {
   display: flex;
-  position: relative;
-  z-index: 10;
   list-style: none;
   margin: 0;
-  padding: 0;
-  padding-bottom: 10px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #9F09E5 0.56%, #FC9635 99.48%);
+  height: 75px;
 }
 
 .featured__item {
@@ -154,7 +154,13 @@ body {
 .featured__link {
   color: white;
   text-decoration: none;
-  opacity: 0.6;
+  opacity: 1;
+}
+
+.sections-detalle{
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .titulo-articulos {
@@ -162,6 +168,7 @@ body {
   font-family: var(--font-family);
   color: black;
   padding-left: 50px;
+  text-align: center;
 }
 
 .articulos {
@@ -169,7 +176,7 @@ body {
   grid-template-columns: repeat(4, 1fr); /*cambiar a 2 para areas*/
   padding-bottom: 20px;
   gap: 20px;
-  margin: 50px 50px;
+  margin: 0px 50px;
   /* --------------------cards en dos columnas-------------------------- */
 }
 .articulos-item {

@@ -182,17 +182,17 @@ header nav ul li a {
   text-decoration: none;
 }
 .button-parrot-pulse {
-  width: 200px;
+  width: 375px;
   height: 50px;
   background-color: rgb(255, 255, 255);
   font-size: var(--font-size-buttons);
   font-family: var(--font-family);
-  border-radius: 15px;
+  border-radius: 5px;
   color: #000000;
   border: 2px solid;
 }
 .button-parrot-pulse:hover {
-  background-color: #142b52;
+  background-color: black;
   color: #ffffff;
   cursor: pointer;
   scale: 1.1;
@@ -200,6 +200,19 @@ header nav ul li a {
 }
 .button-parrot-pulse:hover a {
   color: #ffffff;
+}
+
+p.subtitulo-card-2{
+  font-family: var(--font-family);
+  font-size: 1.3rem;
+  /* gradient-text */
+background:#68DE30;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent; 
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .titulo-card {
@@ -215,6 +228,18 @@ text-fill-color: transparent;
   margin-bottom: 10px;
 }
 
+
+
+.subtitulo-card-2 {
+  color: #9F09E5 ! important;
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 .parrafo-card {
   font-family: var(--font-family);
   font-size: .90rem;
@@ -223,13 +248,7 @@ text-fill-color: transparent;
   margin-bottom: 10px;
 }
 
-.subtitulo-card-2 {
-  color: #8bd1b9;
-  font-family: var(--font-family);
-  font-size: 1.2rem;
-  margin: 0;
-  padding: 0;
-}
+
 
 @media screen and (max-width: 758px) {
   .header-navigation {
@@ -317,3 +336,4 @@ text-fill-color: transparent;
   margin-right: 30px;
   align-items: flex-end;
 }
+

@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/comparacion.css" />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -60,10 +61,10 @@
               <a class="text-nav-2" href="./pulso.html">Pulso</a>
             </li>
             <li class="text-nav-1">
-              <a class="text-nav-2" href="./actividad.html">Actividad</a>
+              <a class="text-nav-2" href="./actividad.html" >Actividad</a>
             </li>
             <li class="text-nav-1">
-              <a class="text-nav-2" href="./comparacion.html" id="Comparación">Comparación</a>
+              <a class="text-nav-2" href="./comparacion.html">Comparación</a>
             </li>
             <li class="text-nav-1">
               <a class="text-nav-2" href="./demanda.html">Demanda</a>
@@ -74,11 +75,11 @@
           </ul>
         </nav>
         <nav>
-          <a href="./login.html">
-            <button class="button-login">
-              Login
-              </button>
-          </a>
+            <a href="./login.html">
+          <button class="button-login" id="Login">
+            Login
+            </button>
+        </a>
             <button class="button-singup">
               Sing up
               </button>
@@ -89,45 +90,33 @@
     <!-- Start dashboard -->
 
     <main>
-      <section class="grid">
-        <div class="card" id="card-1">
-          <h3 class="titulo-card">Cross comparate for TV Shows</h3>
-          <p class="parrafo-card">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-            fugiat facere. Tenetur eos aliquid quasi eum officia! Vitae eveniet
-            qui nisi nesciunt, ex maxime modi suscipit est asperiores, deserunt
-            a.
+      <section class="section-login">
+        <div class="featured__overlay"></div>
+        <div class="div-contenido">
+          <h3 class="titulo-card-login">Merlina</h3>
+          <p class="parrafo-card-login">
+            Mientras asiste a la Academia Nevermore, Merlina Addams intenta dominar<br> su incipiente habilidad psíquica, frustrar una ola de asesinatos y resolver<br> el misterio que involucró a sus padres 25 años atrás.
           </p>
-          <iframe
-            title="[ Insertar título aquí ]"
-            aria-label="Tabla"
-            id="datawrapper-chart-Xjx4R"
-            src="https://datawrapper.dwcdn.net/Xjx4R/1/"
-            scrolling="no"
-            frameborder="0"
-            style="width: 0; min-width: 100% !important; border: none"
-            height="1381"
-            data-external="1"
-          ></iframe>
-          <script type="text/javascript">
-            !(function () {
-              "use strict";
-              window.addEventListener("message", function (e) {
-                if (void 0 !== e.data["datawrapper-height"]) {
-                  var t = document.querySelectorAll("iframe");
-                  for (var a in e.data["datawrapper-height"])
-                    for (var r = 0; r < t.length; r++) {
-                      if (t[r].contentWindow === e.source)
-                        t[r].style.height =
-                          e.data["datawrapper-height"][a] + "px";
-                    }
-                }
-              });
-            })();
-          </script>
+          <button class="boton-ver-ahora">
+            Ver ahora
+          </button>
         </div>
+        <div class="div-formulario">
+            <form class="login-form" action="javascript:void(0);">
+                <h1>Login</h1>
+                <div class="form-input-material">
+                  <input type="text" name="username" id="username" placeholder=" " autocomplete="off" class="form-control-material" required />
+                  <label for="username">Username</label>
+                </div>
+                <div class="form-input-material">
+                  <input type="password" name="password" id="password" placeholder=" " autocomplete="off" class="form-control-material" required />
+                  <label for="password">Password</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-ghost">Login</button>
+              </form>
+            </div>
       </section>
-    </main>
+          </main>    
     <!-- End dash board -->
     <div class="footer-gradiente"></div>
     <footer class="main-footer">

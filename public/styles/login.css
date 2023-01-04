@@ -10,8 +10,8 @@ body {
 
 .section-login{
 width: auto;
-height: 900px;
-  background-image: url(../imagenes/Photo.png);
+height: 700px;
+  background-image: url(../imagenes/Photo-2.png);
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -19,6 +19,9 @@ height: 900px;
   align-items: center;
   column-gap: 60px;
   position: relative;
+  background-size: contain;
+  background-position: center;
+  
 
 }
 
@@ -31,24 +34,41 @@ height: 900px;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+
 .titulo-card-login{
   color: #FFFFFF;
   z-index: 3;
+  font-size: 3rem;
+}
+
+.titulo-formulario{
+  font-size: 2rem;
+  color: black;
+  font-family: var(--font-family);
+}
+
+.parrafo-formulario{
+  color: black;
+  font-size: 1rem;
+  font-family: var(--font-family);
 }
 
 .div-contenido{
   position: relative;
   z-index: 2;
+  margin: 50px;
 
 }
 .div-formulario{
   position: relative;
   z-index: 2;
+  margin: 50px;
 
 }
 .parrafo-card-login{
   color: #FFFFFF;
   z-index: 3;
+  font-size: 1rem;
 }
 
 .boton-ver-ahora{
@@ -81,7 +101,7 @@ height: 900px;
   background: linear-gradient(
     120deg,
     transparent,
-    var(--primary-color),
+    #9F09E5,
     transparent
   );
   transform: translateX(-100%);

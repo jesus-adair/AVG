@@ -25,6 +25,7 @@ height: 700px;
 
 }
 
+
 .featured__overlay {
   position: absolute;
   top: 0;
@@ -57,18 +58,22 @@ height: 700px;
   position: relative;
   z-index: 2;
   margin: 50px;
+  padding: 20px;
 
 }
 .div-formulario{
   position: relative;
   z-index: 2;
-  margin: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
 
 }
 .parrafo-card-login{
   color: #FFFFFF;
   z-index: 3;
   font-size: 1rem;
+  
 }
 
 .boton-ver-ahora{

@@ -17,6 +17,7 @@ body {
   padding: 100px 50px 0px 50px;
   color: white;
   position: relative;
+  padding-bottom: 25px;
 }
 
 .featured__overview {
@@ -119,7 +120,6 @@ body {
   padding-bottom: 10px;
 }
 
-
 .featured__menu {
   display: flex;
   list-style: none;
@@ -127,6 +127,8 @@ body {
   color: #ffffff;
   background: linear-gradient(90deg, #9F09E5 0.56%, #FC9635 99.48%);
   height: 75px;
+  position: relative;
+  align-items: center;
 }
 
 .featured__item {
@@ -169,6 +171,9 @@ body {
   color: black;
   padding-left: 50px;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+margin: 0;
 }
 
 .articulos {

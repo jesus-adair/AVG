@@ -10,7 +10,7 @@ body {
 }
 
 .featured {
-  background-image: url("https://ichef.bbci.co.uk/news/640/cpsprodpb/DC46/production/_126909365_dahmer_101_unit_01793rc.jpg");
+  background-image: url("../imagenes/Photo-detalle-serie.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +109,11 @@ body {
 .featured__iframe {
   margin: 0;
   padding: 10px;
-  background-color: white;
+  background: linear-gradient(152.97deg, #000000 18.75%, rgba(0, 0, 0, 0) 100%);
+backdrop-filter: blur(20.0671px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 15.2892px;
 }
 
 .featured__details {

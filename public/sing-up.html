@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/login.css" />
+    <link rel="stylesheet" href="./styles/sing-up.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -76,12 +76,12 @@
         </nav>
         <nav>
             <a href="./login.html">
-          <button class="button-login" id="Login">
+          <button class="button-login">
             Login
             </button>
         </a>
         <a href="./sing-up.html">
-             <button class="button-singup">
+            <button class="button-singup"id="Sing-up">
               Sing up
               </button>
             </a>
@@ -107,8 +107,12 @@
         </div>
         <div class="div-formulario">
             <form class="login-form" action="javascript:void(0);">
-                <h1 class="titulo-formulario">Inicia sesión</h1>
+                <h1 class="titulo-formulario">Crea una nueva cuenta</h1>
                 <p class="parrafo-formulario">Disfruta del mejor contenido que tenemos para ti.</p>
+                <div class="form-input-material">
+                  <input type="text" name="username" id="username" placeholder=" " autocomplete="off" class="form-control-material" required />
+                  <label for="username">Username</label>
+                </div>
                 <div class="form-input-material">
                   <input type="email" name="email" id="email" placeholder=" " autocomplete="off" class="form-control-material" required />
                   <label for="email">Email</label>
@@ -118,10 +122,10 @@
                   <label for="password">Password</label>
                 </div>
                 <button type="submit" class="btn btn-primary btn-ghost">Login</button>
-                <!-- <div class="have-account-1">
+                <div class="have-account-1">
                   <p>Al ready have a acount?</p>
                   <button class="button-sing-in"> Sing in</button>
-                </div> -->
+                </div>
                  
                
               </form>

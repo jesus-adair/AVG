@@ -23,6 +23,7 @@ body {
 .featured__overview {
   background-color: rgba(0, 0, 0, 0.4);
   padding-bottom: 12px;
+  border-radius: 10px;
 }
 
 .featured__overlay {
@@ -73,11 +74,12 @@ body {
 }
 
 .featured__button:hover {
-  background-color: #142b52;
+  background-color: #9f09e5;
   color: #ffffff;
   cursor: pointer;
   scale: 1.1;
   transition: 0.2s all ease;
+  
 }
 .featured__button:hover a {
   color: #ffffff;
@@ -171,9 +173,13 @@ body {
   color: black;
   padding-left: 50px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
 margin: 0;
+}
+
+.reel{
+  padding-bottom: 50px;
 }
 
 .articulos {
@@ -211,3 +217,4 @@ margin: 0;
   display: grid;
   grid-template-rows: 1fr;
 }
+

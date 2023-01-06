@@ -172,6 +172,10 @@ font-size: 1rem;
   color: #9F09E5;
 }
 
+#Sing-up {
+  color: #9F09E5;
+}
+
 /*header*/
 .card {
   background-color: var(--color-card);

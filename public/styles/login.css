@@ -90,6 +90,18 @@ height: 700px;
   font-size: 1rem;
 }
 
+
+.boton-ver-ahora:hover {
+  background-color: #9f09e5;
+  color: #ffffff;
+  cursor: pointer;
+  scale: 1.1;
+  transition: 0.2s all ease;
+  border: none;
+  
+
+}
+
 .btn {
   padding: 8px 20px;
   border-radius: 0;
@@ -159,4 +171,47 @@ height: 700px;
 .login-form .btn {
   width: 100%;
   margin: 18px 0 9px 0;
+}
+
+.have-account-1{
+
+  color: #6C6D6D;
+  font-family: var(--font-family);
+  font-size: .85rem;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  padding: 10px;
+  width: 300px;
+  height: 20px;
+  justify-content: center;
+
+}
+
+
+.button-sing-in{
+  width: 100px;
+  height: 20px;
+  background-color: transparent;
+  color: #6C6D6D;
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin-right: 50px;
+  margin-top: 10px;
+  font-size: 0.75rem;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.button-sing-in:hover {
+  background-color: transparent;
+  color: #9F09E5;
+  cursor: pointer;
+  scale: 1.1;
+  transition: 0.2s all ease;
+  border: none;
+  
+
 }

@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/actividad.css" />
+    <link rel="stylesheet" href="./styles/inicio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -40,6 +41,7 @@
     <title>Parrot</title>
   </head>
   <body>
+    <!-- Start navigation bar -->
     <header>
       <div class="header-navigation">
         <a id="img-nav" href="./index.html">
@@ -52,20 +54,20 @@
         <nav class="nav-links">
           <ul>
             <li class="text-nav-1">
-              <a class="text-nav-2" href="./inicio.html" 
+              <a class="text-nav-2" href="./inicio.html" id="Inicio"
                 >Inicio</a
               >
             </li>
             <li class="text-nav-1">
-              <a class="text-nav-2" href="./index.html" 
-                >Producciones</a
-              >
-            </li>
+                <a class="text-nav-2" href="./index.html" 
+                  >Producciones</a
+                >
+              </li>
             <li class="text-nav-1">
               <a class="text-nav-2" href="./pulso.html">Pulso</a>
             </li>
             <li class="text-nav-1">
-              <a class="text-nav-2" href="./actividad.html" id="Actividad">Actividad</a>
+              <a class="text-nav-2" href="./actividad.html">Actividad</a>
             </li>
             <li class="text-nav-1">
               <a class="text-nav-2" href="./comparacion.html">Comparación</a>
@@ -94,46 +96,43 @@
     </header>
     <!-- End navigation bar -->
     <!-- Start dashboard -->
-
     <main>
-      <section class="grid">
-        <div class="card" id="card-1">
-          <h3 class="titulo-card">Eventos</h3>
-          <p class="parrafo-card">
-            Disfruta de series originales, estrenos de películas y tu ligas de
-            fútbol favoritas.
-          </p>
-          <iframe
-            title=""
-            aria-label="Interactive line chart"
-            id="datawrapper-chart-0DIVv"
-            src="https://datawrapper.dwcdn.net/0DIVv/1/"
-            scrolling="no"
-            frameborder="0"
-            style="width: 0; min-width: 100% !important; border: none"
-            height="366"
-            data-external="1"
-          ></iframe>
-          <script type="text/javascript">
-            !(function () {
-              "use strict";
-              window.addEventListener("message", function (e) {
-                if (void 0 !== e.data["datawrapper-height"]) {
-                  var t = document.querySelectorAll("iframe");
-                  for (var a in e.data["datawrapper-height"])
-                    for (var r = 0; r < t.length; r++) {
-                      if (t[r].contentWindow === e.source)
-                        t[r].style.height =
-                          e.data["datawrapper-height"][a] + "px";
-                    }
-                }
-              });
-            })();
-          </script>
-        </div>
-      </section>
+        <section class="hero">
+      <div class="hero-inicio">
+        <h2 class="titulo-card-inicio">
+            Paga 4 meses<br> 
+            y obtén un año de <br>suscripción
+        </h2>
+        <p class="parrafo-inicio">
+            Plan anual por $469MXN ¡Ahorra $959MXN!*
+        </p>
+        <p class="parrafo-inicio">
+            
+            Ten acceso a todos los datos y mantente informado de<br> lo ultimo en tendencias en al instante.
+        </p>
+        <button class="button-inicio">
+iniciar ahora 
+        </button>
+    </div>
+    <div class="hero-inicio-2">
+   
+</section>
+<div class="separate-section">
+    </div>
+    <section class="section-2">
+       <div>
+        <h3 class="titulo-card-inicio-2">Data en tiempo real al<br> alcance de tu mano</h3>
+        <p class="parrafo-inicio-2">descubre como se comportan los datos en tiempo real<br> y aprovechalos para poder posicionarte con los mejores del momento.</p>
+    </div>
+</section>
+    <section class="services-section">
+    <div class="services">servicio 1</div>
+    <div class="services"> servicio 2</div>
+    <div class="services"> servicio 3</div>
+</section>
+    
+
     </main>
-    <!-- End dash board -->
     <div class="footer-gradiente"></div>
     <footer class="main-footer">
       <div class="footer-logo">
@@ -145,12 +144,15 @@
       <div>
         <p class="footer-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quod excepturi amet cum delectus quae temporibus velit, repellat esse ipsa? Impedit dolorem iure quos accusantium velit atque veniam quas rem!</p>
       <ul class="footer-links">
-        <li><img class="icon-footer" src="./imagenes/facebook-icon.svg"></li>
-        <li><img class="icon-footer" src="./imagenes/intagram-icon.svg"></li>
-        <li><img class="icon-footer" src="./imagenes/twitter-Icon.svg"></li>
-        <li><img class="icon-footer" src="./imagenes/google-icon.svg"></li>
+      <li><img class="icon-footer" src="./imagenes/facebook-icon.svg"></li>
+      <li><img class="icon-footer" src="./imagenes/intagram-icon.svg"></li>
+      <li><img class="icon-footer" src="./imagenes/twitter-Icon.svg"></li>
+      <li><img class="icon-footer" src="./imagenes/google-icon.svg"></li>
     </ul>
     </div>
     </footer>
+      
+    <!-- End dash board -->
+    
   </body>
 </html>

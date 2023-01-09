@@ -104,6 +104,7 @@ header nav ul li a {
 width: 110px;
 height: 40px;
 border-radius: 10px;
+border: none;
 background-color: transparent;
 color: var(--color-font);
 font-family: var(--font-family);
@@ -143,6 +144,10 @@ font-size: 1rem;
 }
 
 /* Selecciona cualquier <a> que esté siendo activado */
+#Inicio {
+  color: #9F09E5;
+}
+
 #Producciones {
   color: #9F09E5;
 }

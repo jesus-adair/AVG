@@ -1,0 +1,121 @@
+  .hero{
+    background-image: url(../imagenes/bg-inicio.png);
+    width:100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position:center;
+    justify-content: center;
+
+  }
+
+  .hero-inicio{
+    justify-content: center;
+    width: 100%;
+  }
+
+
+.titulo-card-inicio {
+    text-align: left;
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 70px;
+    font-size: 3rem;
+    color: white;
+    font-family:var(titulo-card);
+    line-height:3.5rem;
+
+}
+
+  .parrafo-inicio {
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 70px;
+
+  }
+
+  .button-inicio{
+    text-align: center;
+      width: 375px;
+      height: 60px;
+      border-radius: 10px;
+      background-color: #9F09E5;
+      color: #FFFFFF;
+      border: none;
+      font-family: var(--font-family);
+      font-weight: 600;
+      margin-left: 70px;
+      margin-top: 50px;
+      font-size: 1rem;
+    
+    }
+    .button-inicio:hover {
+      background-color: #9F09E5;
+      color: #ffffff;
+      cursor: pointer;
+      scale: 1.1;
+      transition: 0.5s all ease;
+      border: none;
+    }
+
+
+  .separate-section{
+    background: linear-gradient(90deg, #9F09E5 0.56%, #FC9635 99.48%);
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.section-2{
+    width: 100%;
+    height: 200px;
+  }
+  
+.titulo-card-inicio-2 {
+  font-family: var(--font-family);
+  font-size: 2.5rem;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 100px;
+  line-height:3.5rem;
+
+}
+
+
+  .parrafo-inicio-2 {
+    font-family: var(--font-family);
+    font-size: .90rem;
+    color: #6C6D6D;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+
+  .services-section{
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 200px);
+    
+  }
+
+  .services{
+    background-color: #9F09E5;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+  }
+  

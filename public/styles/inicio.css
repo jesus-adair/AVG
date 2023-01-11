@@ -237,6 +237,7 @@ text-fill-color: transparent;
 .img-devices{
  display: block;
  margin: auto;
+ background-image: url(../imagenes/mk-devices.png);
 }
 
 /* faqs */

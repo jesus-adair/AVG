@@ -324,20 +324,28 @@ h1 {
   padding: 0 30px;
   margin: 60px auto;
   column-gap: 30px;
+  
 }
 
 .info{
   display: block;
-
   margin: auto;
   padding: 0;
   
 }
 
 .titulo{
-  font-size: 3rem;
-  color: white;
-  font-size: var(--font-family);
+  font-family: var(--font-family);
+  font-size: 2.5rem;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height:3.5rem;
   
 }
 
@@ -349,4 +357,33 @@ h1 {
 
 .detalle-serie-1{
  width: 100%;
+
 }
+
+
+.boton-detalle-serie{
+    width: 200px;
+      text-align: center;
+      height: 60px;
+      border-radius: 10px;
+      background-color: transparent;
+      color: #FFFFFF;
+      border: 1px solid white;
+      font-family: var(--font-family);
+      font-weight: 600;
+      margin-top: 50px;
+      font-size: 1rem;
+    
+    }
+
+    .boton-detalle-serie:hover {
+      background-color: #9F09E5;
+      color: #ffffff;
+      cursor: pointer;
+      scale: 1.1;
+      transition: 0.5s all ease;
+      border: none;
+    }
+
+
+    

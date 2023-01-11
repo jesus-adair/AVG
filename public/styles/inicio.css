@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-position:top right;
     justify-content: center;
+    margin: auto;
+    max-width: 1400px;
 
   }
 
@@ -315,7 +317,13 @@ h1 {
 
 
 .detalle-1{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  max-width: 1400px;
+  align-content: center;
+  padding: 0 30px;
+  margin: 60px auto;
+  column-gap: 30px;
 }
 
 .info{
@@ -330,6 +338,7 @@ h1 {
   font-size: 3rem;
   color: white;
   font-size: var(--font-family);
+  
 }
 
 .parrafo{
@@ -338,8 +347,6 @@ h1 {
   font-size: var(--font-family);
 }
 
-.img{
-  max-width: 1400px;
-  width: 700px;
-  height: 500px;
+.detalle-serie-1{
+ width: 100%;
 }

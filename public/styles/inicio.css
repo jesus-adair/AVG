@@ -247,8 +247,6 @@ text-fill-color: transparent;
 
 * {
   font-family: var(--font-family);
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -313,4 +311,35 @@ h1 {
   .wrapper {
   width: 80%;
 }
+}
+
+
+.detalle-1{
+  display: flex;
+}
+
+.info{
+  display: block;
+
+  margin: auto;
+  padding: 0;
+  
+}
+
+.titulo{
+  font-size: 3rem;
+  color: white;
+  font-size: var(--font-family);
+}
+
+.parrafo{
+  font-size: 1rem;
+  color: white;
+  font-size: var(--font-family);
+}
+
+.img{
+  max-width: 1400px;
+  width: 700px;
+  height: 500px;
 }

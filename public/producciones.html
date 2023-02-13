@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./favicon/safari-pinned-tab.svg"
+      color="#727272"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#000000" />
+    <title>Parrot</title>
+  </head>
+  <body>
+    <!-- Start navigation bar -->
+    <header>
+      <div class="header-navigation">
+        <a id="img-nav" href="./index.html">
+          <img
+            class="img-nav"
+            src="imagenes/LOGO-ICON.png"
+            alt="logotipo"
+          />
+        </a>
+        <nav class="nav-links">
+          <ul>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./index.html" 
+                >Inicio</a
+              >
+            </li>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./producciones.html" id="Producciones"
+                >Producciones</a
+              >
+            </li>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./pulso.html">Pulso</a>
+            </li>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./actividad.html">Actividad</a>
+            </li>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./comparacion.html">Comparación</a>
+            </li>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./demanda.html">Demanda</a>
+            </li>
+            <li class="text-nav-1">
+              <a class="text-nav-2" href="./alcance.html">Alcance</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <a href="./login.html">
+            <button class="button-login">
+              Login
+              </button>
+          </a>
+          <a href="./sing-up.html">
+            <button class="button-singup">
+              Sing up
+              </button>
+            </a>
+          </nav>
+      </div>
+    </header>
+    <!-- End navigation bar -->
+    <!-- Start dashboard -->
+    <main>
+      <section class="grid">
+        <div class="card" id="card-1">
+          <h3 class="titulo-card">TV Shows</h3>
+          <p class="parrafo-card">
+            Disfruta de series originales, estrenos de películas y tu ligas de
+            fútbol favoritas.
+          </p>
+          <!-- <div class="button">
+            <button class="button-parrot-pulse">
+              <a href="./detalle-serie.html" id="link-button">Detalle serie</a>
+            </button>
+          </div> -->
+          <iframe
+            title=""
+            aria-label="Table"
+            id="datawrapper-chart-smFFb"
+            src="https://datawrapper.dwcdn.net/smFFb/15/"
+            scrolling="no"
+            frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none"
+            height="1804"
+            data-external="1"
+          ></iframe>
+          <script type="text/javascript">
+            !(function () {
+              "use strict";
+              window.addEventListener("message", function (e) {
+                if (void 0 !== e.data["datawrapper-height"]) {
+                  var t = document.querySelectorAll("iframe");
+                  for (var a in e.data["datawrapper-height"])
+                    for (var r = 0; r < t.length; r++) {
+                      if (t[r].contentWindow === e.source)
+                        t[r].style.height =
+                          e.data["datawrapper-height"][a] + "px";
+                    }
+                }
+              });
+            })();
+          </script>
+        </div>
+        <!-- <div class="card" id="card-2">
+          <div class="textos-card-2">
+            <h3 class="titulo-card">
+              61.46x<br />
+              <p class="subtitulo-card">Exceptional</p>
+            </h3>
+
+            <p class="parrafo-card">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+              repudiandae ipsum adipisci magnam distinctio unde voluptatem
+              obcaecati quaerat voluptate pariatur rerum porro nulla, deserunt
+              saepe? Dolores numquam aut tempora! Hic.
+            </p>
+          </div>
+          <iframe
+            class="iframe-2"
+            title="1.4Actividad7ías"
+            aria-label="Interactive line chart"
+            id="datawrapper-chart-Jmuc1"
+            src="https://datawrapper.dwcdn.net/Jmuc1/1/"
+            scrolling="no"
+            frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none"
+            height="429"
+          ></iframe>
+          <script type="text/javascript">
+            !(function () {
+              "use strict";
+              window.addEventListener("message", function (e) {
+                if (void 0 !== e.data["datawrapper-height"]) {
+                  var t = document.querySelectorAll("iframe");
+                  for (var a in e.data["datawrapper-height"])
+                    for (var r = 0; r < t.length; r++) {
+                      if (t[r].contentWindow === e.source)
+                        t[r].style.height =
+                          e.data["datawrapper-height"][a] + "px";
+                    }
+                }
+              });
+            })();
+          </script>
+        </div>
+        <div class="card" id="card-3">
+          <h3 class="titulo-card">Parrot pulse</h3>
+          <p class="parrafo-card">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+            repudiandae ipsum adipisci magnam distinctio unde voluptatem
+            obcaecati quaerat voluptate pariatur rerum porro nulla, deserunt
+            saepe? Dolores numquam aut tempora! Hic.
+          </p>
+          <div
+            class="flourish-embed flourish-radar"
+            data-src="visualisation/11943304"
+          >
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+          </div>
+        </div>
+        <div class="card" id="card-4">
+          <h3 class="titulo-card">Titulo de la tabla</h3>
+          <p class="parrafo-card">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+            repudiandae ipsum adipisci magnam distinctio unde voluptatem
+            obcaecati quaerat voluptate pariatur rerum porro nulla, deserunt
+            saepe? Dolores numquam aut tempora! Hic.
+          </p>
+          <iframe
+            title="European countries with lowest &amp;amp; highest voter turnout"
+            aria-label="Bar Chart"
+            id="datawrapper-chart-1eAvE"
+            src="https://datawrapper.dwcdn.net/1eAvE/1/"
+            scrolling="no"
+            frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none"
+            height="465"
+            data-external="1"
+          ></iframe>
+          <script type="text/javascript">
+            !(function () {
+              "use strict";
+              window.addEventListener("message", function (e) {
+                if (void 0 !== e.data["datawrapper-height"]) {
+                  var t = document.querySelectorAll("iframe");
+                  for (var a in e.data["datawrapper-height"])
+                    for (var r = 0; r < t.length; r++) {
+                      if (t[r].contentWindow === e.source)
+                        t[r].style.height =
+                          e.data["datawrapper-height"][a] + "px";
+                    }
+                }
+              });
+            })();
+          </script>
+        </div> -->
+      </section>
+    </main>
+    <div class="footer-gradiente"></div>
+    <footer class="main-footer">
+      <div class="footer-logo">
+        <img class="footer-logo-2" src="./imagenes/LOGO-WHITE.png" alt="">
+        <a class="link-footer" href="">© 2023. All rights reserved</a>
+      </div>
+   
+
+      <div>
+        <p class="footer-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quod excepturi amet cum delectus quae temporibus velit, repellat esse ipsa? Impedit dolorem iure quos accusantium velit atque veniam quas rem!</p>
+      <ul class="footer-links">
+      <li><img class="icon-footer" src="./imagenes/facebook-icon.svg"></li>
+      <li><img class="icon-footer" src="./imagenes/intagram-icon.svg"></li>
+      <li><img class="icon-footer" src="./imagenes/twitter-Icon.svg"></li>
+      <li><img class="icon-footer" src="./imagenes/google-icon.svg"></li>
+    </ul>
+    </div>
+    </footer>
+      
+    <!-- End dash board -->
+    
+  </body>
+</html>

@@ -136,7 +136,7 @@ font-size: 1rem;
 }
 .button-singup:hover {
   background-color: #9F09E5;
-  color: #ffffff;
+  color: #ffffff !important; 
   cursor: pointer;
   scale: 1.1;
   transition: 0.5s all ease;

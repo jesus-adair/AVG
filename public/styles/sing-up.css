@@ -70,7 +70,7 @@ body {
   
   }
   .parrafo-card-login{
-    color: #FFFFFF;
+    color: #fff;
     z-index: 3;
     font-size: 1rem;
     
@@ -140,7 +140,7 @@ body {
   }
   
   .form-input-material input {
-    color: white;
+    color: #000;
   }
   
   .login-form {

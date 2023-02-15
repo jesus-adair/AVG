@@ -130,7 +130,7 @@
     gap: 25px;
     grid-template-rows: 2;
     margin-bottom: 100px;
-    padding: 20px;
+    padding: 75px;
     max-width: 1400px;
     margin: auto;
 }
@@ -322,7 +322,7 @@ h1 {
   grid-template-columns: repeat(2,1fr);
   max-width: 1400px;
   align-content: center;
-  padding: 100px;
+  padding: 50px 50px;
   margin: 60px auto;
   column-gap: 30px;
   
@@ -374,6 +374,7 @@ h1 {
       font-weight: 600;
       margin-top: 50px;
       font-size: 1rem;
+      text-decoration: none;
     
     }
 

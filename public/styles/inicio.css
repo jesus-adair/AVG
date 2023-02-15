@@ -374,9 +374,16 @@ h1 {
       font-weight: 600;
       margin-top: 50px;
       font-size: 1rem;
-      text-decoration: none;
+      list-style: none;
+      
     
     }
+
+    .boton-detalle-serie a{
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+
 
     .boton-detalle-serie:hover {
       background-color: #9F09E5;

@@ -11,7 +11,7 @@ body {
 .section-login{
 width: auto;
 height: 700px;
-  background-image: url(../imagenes/Photo-2.png);
+  background-image: url(../imagenes/Photo-3.png);
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
